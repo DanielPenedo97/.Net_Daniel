@@ -1,0 +1,15 @@
+/home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/bin/Debug/net7.0/PI001
+/home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/bin/Debug/net7.0/PI001.deps.json
+/home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/bin/Debug/net7.0/PI001.runtimeconfig.json
+/home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/bin/Debug/net7.0/PI001.dll
+/home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/bin/Debug/net7.0/PI001.pdb
+/home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/obj/Debug/net7.0/PI001.csproj.AssemblyReference.cache
+/home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/obj/Debug/net7.0/PI001.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/obj/Debug/net7.0/PI001.AssemblyInfoInputs.cache
+/home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/obj/Debug/net7.0/PI001.AssemblyInfo.cs
+/home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/obj/Debug/net7.0/PI001.csproj.CoreCompileInputs.cache
+/home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/obj/Debug/net7.0/PI001.dll
+/home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/obj/Debug/net7.0/refint/PI001.dll
+/home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/obj/Debug/net7.0/PI001.pdb
+/home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/obj/Debug/net7.0/PI001.genruntimeconfig.cache
+/home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/obj/Debug/net7.0/ref/PI001.dll
