@@ -22,5 +22,6 @@ Console.WriteLine("Hello, World!");
 #endregion
 
 #region Operadores 
-
+    tipoDouble = tipoInteiro + tipoLong;
+    
 #endregion
