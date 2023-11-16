@@ -1,0 +1,15 @@
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Fibonacci/bin/Debug/net7.0/Fibonacci
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Fibonacci/bin/Debug/net7.0/Fibonacci.deps.json
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Fibonacci/bin/Debug/net7.0/Fibonacci.runtimeconfig.json
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Fibonacci/bin/Debug/net7.0/Fibonacci.dll
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Fibonacci/bin/Debug/net7.0/Fibonacci.pdb
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Fibonacci/obj/Debug/net7.0/Fibonacci.csproj.AssemblyReference.cache
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Fibonacci/obj/Debug/net7.0/Fibonacci.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Fibonacci/obj/Debug/net7.0/Fibonacci.AssemblyInfoInputs.cache
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Fibonacci/obj/Debug/net7.0/Fibonacci.AssemblyInfo.cs
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Fibonacci/obj/Debug/net7.0/Fibonacci.csproj.CoreCompileInputs.cache
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Fibonacci/obj/Debug/net7.0/Fibonacci.dll
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Fibonacci/obj/Debug/net7.0/refint/Fibonacci.dll
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Fibonacci/obj/Debug/net7.0/Fibonacci.pdb
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Fibonacci/obj/Debug/net7.0/Fibonacci.genruntimeconfig.cache
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Fibonacci/obj/Debug/net7.0/ref/Fibonacci.dll
