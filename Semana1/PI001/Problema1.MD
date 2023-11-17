@@ -7,21 +7,21 @@ Aqui estão os comandos básicos para verificar a versão, remover e atualizar o
 
 <h2>Verificar Versão Instalada:</h2>
 
-<b>dotnet --version<b>
+<b>dotnet --version<b><br>
 Este comando exibirá a versão atual do .NET SDK instalada no seu sistema.
 
 <h2>Listar Versões Instaladas:</h2>
-<b>dotnet --list-sdks</b>
+<b>dotnet --list-sdks</b><br>
 Este comando mostrará uma lista de todas as versões do .NET SDK instaladas no seu sistema.
 
 <h2>Remover .NET SDK:</h2>
-<b>dotnet --uninstall-sdk <versão></b>
+<b>dotnet --uninstall-sdk <versão></b><br>
 Substitua <versão> pela versão específica do SDK que você deseja desinstalar.
 
 <h2>Atualizar .NET SDK:</h2>
-Para atualizar para a versão mais recente, você pode usar um gerenciador de pacotes específico para o seu sistema operacional ou usar o seguinte comando:
+Para atualizar para a versão mais recente, você pode usar um gerenciador de pacotes específico para o seu sistema operacional ou usar o seguinte comando:<br>
 <b>dotnet --version
-dotnet --install-sdk</b>
+dotnet --install-sdk</b><br>
 O primeiro comando exibe a versão atual instalada e o segundo comando instala a versão mais recente disponível.
 
 
