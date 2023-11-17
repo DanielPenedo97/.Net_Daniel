@@ -4,3 +4,9 @@
 <p>Para verificar se o .NET SDK está corretamente instalado no seu sistema e obter informações sobre as versões instaladas, 
 você pode usar alguns comandos no terminal ou prompt de comando, dependendo do seu sistema operacional. 
 Aqui estão os comandos básicos para verificar a versão, remover e atualizar o .NET SDK:</p>
+
+<h2>Verificar Versão Instalada:</h2>
+
+<b>dotnet --version<b>
+
+
