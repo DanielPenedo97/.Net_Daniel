@@ -1,0 +1,4 @@
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana2\Exercicio3\obj\Debug\net7.0\Exercicio3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana2\Exercicio3\obj\Debug\net7.0\Exercicio3.AssemblyInfoInputs.cache
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana2\Exercicio3\obj\Debug\net7.0\Exercicio3.AssemblyInfo.cs
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana2\Exercicio3\obj\Debug\net7.0\Exercicio3.csproj.CoreCompileInputs.cache

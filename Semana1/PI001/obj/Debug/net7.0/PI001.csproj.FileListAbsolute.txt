@@ -13,3 +13,17 @@
 /home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/obj/Debug/net7.0/PI001.pdb
 /home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/obj/Debug/net7.0/PI001.genruntimeconfig.cache
 /home/daniel-penedo-santos/dotNet_Daniel/Semana1/PI001/obj/Debug/net7.0/ref/PI001.dll
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana1\PI001\bin\Debug\net7.0\PI001.exe
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana1\PI001\bin\Debug\net7.0\PI001.deps.json
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana1\PI001\bin\Debug\net7.0\PI001.runtimeconfig.json
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana1\PI001\bin\Debug\net7.0\PI001.dll
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana1\PI001\bin\Debug\net7.0\PI001.pdb
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana1\PI001\obj\Debug\net7.0\PI001.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana1\PI001\obj\Debug\net7.0\PI001.AssemblyInfoInputs.cache
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana1\PI001\obj\Debug\net7.0\PI001.AssemblyInfo.cs
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana1\PI001\obj\Debug\net7.0\PI001.csproj.CoreCompileInputs.cache
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana1\PI001\obj\Debug\net7.0\PI001.dll
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana1\PI001\obj\Debug\net7.0\refint\PI001.dll
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana1\PI001\obj\Debug\net7.0\PI001.pdb
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana1\PI001\obj\Debug\net7.0\PI001.genruntimeconfig.cache
+C:\Users\Daniels\Downloads\residencia_software_dotNet\dotNet_Daniel\Semana1\PI001\obj\Debug\net7.0\ref\PI001.dll
