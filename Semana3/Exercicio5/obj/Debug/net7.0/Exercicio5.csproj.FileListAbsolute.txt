@@ -1,0 +1,15 @@
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicio5/bin/Debug/net7.0/Exercicio5
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicio5/bin/Debug/net7.0/Exercicio5.deps.json
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicio5/bin/Debug/net7.0/Exercicio5.runtimeconfig.json
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicio5/bin/Debug/net7.0/Exercicio5.dll
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicio5/bin/Debug/net7.0/Exercicio5.pdb
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicio5/obj/Debug/net7.0/Exercicio5.csproj.AssemblyReference.cache
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicio5/obj/Debug/net7.0/Exercicio5.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicio5/obj/Debug/net7.0/Exercicio5.AssemblyInfoInputs.cache
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicio5/obj/Debug/net7.0/Exercicio5.AssemblyInfo.cs
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicio5/obj/Debug/net7.0/Exercicio5.csproj.CoreCompileInputs.cache
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicio5/obj/Debug/net7.0/Exercicio5.dll
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicio5/obj/Debug/net7.0/refint/Exercicio5.dll
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicio5/obj/Debug/net7.0/Exercicio5.pdb
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicio5/obj/Debug/net7.0/Exercicio5.genruntimeconfig.cache
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicio5/obj/Debug/net7.0/ref/Exercicio5.dll
