@@ -1,90 +1,21 @@
-﻿#region 
-using System;
+﻿using System;
+using System.Globalization;
+using _Pessoa;
+using _Advogados;
+using _Cliente;
 
-abstract class Pessoa {
-    protected string nome;
-    protected string dataDeNascimento;
-    protected string cpf;
+CultureInfo.CurrentCulture = CultureInfo.CreateSpecificCulture("pt-BR");
 
-    public Pessoa(string nome, string dataDeNascimento, string cpf){
-        this.nome = nome;
-        this.dataDeNascimento = dataDeNascimento;
-        this.cpf = cpf;
-    }
+#region Herança
 
-    public string Nome{
-        get{
-            return nome;
-        }
-        set{
-            nome = value;
-        }
-    }
+Cliente cliente = new Cliente("Valber", "10/10/1990", "123456789-00", "Solteiro", "Programador");
+/*Advogados advogado = new Advogados();
+advogado.Nome = "Helder";
+advogado.Cpf = "123456789-00";
+advogado.DataDeNascimento = "10/10/1990";
+advogado.Cna = "123456789-00";*/
 
-    public string DataDeNascimento{
-        get{
-            return dataDeNascimento;
-        }
-        set{
-            dataDeNascimento = value;
-        }
-    }
+Console.WriteLine(cliente.Nome);
 
-    public string Cpf{
-        get{
-            return cpf;
-        }
-        set{
-            cpf = value;
-        }
-    }
-}
-class Advogados : Pessoa{
-    public string cna;
-    public string Cna{
-        get{
-            return cna;
-        }
-        set{
-            cna = value;
-        }
-    }
-    public Advogados(string nome, string dataDeNascimento, string cpf, string cna) : base(nome, dataDeNascimento, cpf){
-        this.nome = nome;
-        this.dataDeNascimento = dataDeNascimento;
-        this.cpf = cpf;
-        this.cna = cna;
-    }
-    public void imprime(){
-        Console.WriteLine("Nome: {0}", this.nome);
-        Console.WriteLine("cna: {0}", this.cna);
-        Console.WriteLine("Especialidade: {0}", this.especialidade);
-        Console.WriteLine("Data de Nascimento: {0}", this.dataDeNascimento);
-    }
-}
-
-class Cliente : Pessoa {
-    public string estadoCivil;
-
-    public string EstadoCivil{
-        get{
-            return estadoCivil;
-        }
-        set{
-            estadoCivil = value;
-        }
-    }
-    public Cliente (string nome, string dataDeNascimento, string cpf, string estadoCivil) : base(nome, dataDeNascimento, cpf){
-        this.nome = nome;
-        this.dataDeNascimento = dataDeNascimento;
-        this.cpf = cpf;
-        this.estadoCivil = estadoCivil;
-    }
-    public void imprime(){
-        Console.WriteLine("Nome: {0}", this.nome);
-        Console.WriteLine("cpf: {0}", this.cpf);
-        Console.WriteLine("Endereço: {0}", this.estadoCivil);
-    }
-}
 
 #endregion
