@@ -3,7 +3,7 @@ using _Pessoa;
 class Advogados : Pessoa{
     public string cna;
     public string Cna{get; set;}
-    public Advogados(string nome, string dataDeNascimento, string cpf, string cna) : base(nome, dataDeNascimento, cpf){
+    public Advogados(string nome, DateTime dataDeNascimento, string cpf, string cna) : base(nome, dataDeNascimento, cpf){
         this.nome = nome;
         this.dataDeNascimento = dataDeNascimento;
         this.cpf = cpf;

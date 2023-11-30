@@ -1,15 +1,20 @@
 namespace _Pessoa;
 abstract class Pessoa {
     protected string nome;
-    protected string dataDeNascimento;
-    protected string cpf;
-    public Pessoa(string nome, string dataDeNascimento, string cpf){
+    protected DateTime dataDeNascimento;
+    protected string? cpf;
+    public Pessoa(string nome, DateTime dataDeNascimento, string cpf){
         this.nome = nome;
         this.dataDeNascimento = dataDeNascimento;
-        this.cpf = cpf;
+        if(validaCPF(cpf)){
+            this.cpf = cpf;
+        }
+        else{
+            throw new Exception("CPF inválido");
+        }
     }
     public string Nome{get; set;}
-    public string DataDeNascimento{get; set;}
+    public DateTime DataDeNascimento{get; set;}
     public string Cpf{get; set;}
     private bool validaCPF(string cpf){
         if(cpf.Length != 11){
@@ -19,4 +24,5 @@ abstract class Pessoa {
             return true;
         }
     }
+    
 }
