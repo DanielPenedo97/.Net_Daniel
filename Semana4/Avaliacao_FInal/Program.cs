@@ -3,6 +3,7 @@ using System.Globalization;
 using _Pessoa;
 using _Advogados;
 using _Cliente;
+using System.Security.Cryptography.X509Certificates;
 
 CultureInfo.CurrentCulture = CultureInfo.CreateSpecificCulture("pt-BR");
 
@@ -10,37 +11,25 @@ CultureInfo.CurrentCulture = CultureInfo.CreateSpecificCulture("pt-BR");
 
 class Principal{
     static void Main(){
-        /*Cliente cliente = new Cliente("Valber", "10/10/1990", "123456789-00", "Solteiro", "Programador");
-        Advogados advogado = new Advogados("Helder", "10/10/1990", "123456789-00", "123456789-00");
-        Console.WriteLine(cliente.Nome);
-        Console.WriteLine(advogado.Nome);*/
+        List<Advogados> advogados = new List<Advogados>(){
+            new Advogados("João Advogado", new DateTime(1, 1, 2001), "12345678901", "CNA123"),
+            new Advogados("Maria Advogada", new DateTime(03, 06, 2000), "23456789012", "CNA456"),
+            new Advogados("Pedro Advogado", new DateTime(2, 7, 1997), "34567890123", "CNA789")
+        };
 
-        List<Advogados> advogados = new List<Advogados>();
-
-        List<Cliente> clientes = new List<Cliente>();
-
-        Advogados advogado1 = new Advogados("Helder", new DateTime(1, 1, 2001), "123456789-00", "123456789-00");
-        advogados.Add(advogado1);
-        Advogados advogado2 = new Advogados("Helder", new DateTime(3, 5, 1998), "123456789-00", "123456789-00");
-        advogados.Add(advogado2);
-
-        Cliente cliente1 = new Cliente("Valber", new DateTime(3, 5, 1998), "123486789-00", "Solteiro", "Programador");
-        clientes.Add(cliente1);
-        Cliente cliente2 = new Cliente("Daniel", new DateTime(3, 5, 1998), "123436789-00", "Solteiro", "Programador");
-        clientes.Add(cliente2);
-
-        foreach(Advogados advogado in advogados){
-            advogado.imprime();
-        }
-
-        foreach(Cliente cliente in clientes){
-            cliente.imprime();
-        }
-
-
-
-
+        List<Cliente> clientes = new List<Cliente>(){
+            new Cliente("João Cliente", new DateTime(1, 1, 2001), "12345678901", "Solteiro", "Programador"),
+            new Cliente("Maria Cliente", new DateTime(03, 06, 2000), "23456789012", "Casado", "Programador"),
+            new Cliente("Pedro Cliente", new DateTime(2, 7, 1997), "34567890123", "Solteiro", "Programador")
+        };
         
+    Console.WriteLine("Advogados: ");
+        foreach(Advogados advogado in advogados){
+            Console.WriteLine($"Nome: {advogado.Nome}");
+            Console.WriteLine($"CPF: {advogado.Cpf}");
+        }
+    
     }
+
 }
 #endregion
