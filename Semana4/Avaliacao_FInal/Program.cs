@@ -41,7 +41,6 @@ abstract class Pessoa {
 }
 class Advogados : Pessoa{
     public string cna;
-    public string especialidade;
     public string Cna{
         get{
             return cna;
@@ -50,19 +49,11 @@ class Advogados : Pessoa{
             cna = value;
         }
     }
-    public string Especialidade{
-        get{
-            return especialidade;
-        }
-        set{
-            especialidade = value;
-        }
-    }
-    public Advogados(string nome, string cna, string especialidade, string dataDeNascimento) : base(nome, dataDeNascimento){
+    public Advogados(string nome, string dataDeNascimento, string cpf, string cna) : base(nome, dataDeNascimento, cpf){
         this.nome = nome;
-        this.cna = cna;
-        this.especialidade = especialidade;
         this.dataDeNascimento = dataDeNascimento;
+        this.cpf = cpf;
+        this.cna = cna;
     }
     public void imprime(){
         Console.WriteLine("Nome: {0}", this.nome);
@@ -83,11 +74,11 @@ class Cliente : Pessoa {
             estadoCivil = value;
         }
     }
-    public Cliente(string nome, string cpf, string estadoCivil, string dataDeNascimento){
+    public Cliente (string nome, string dataDeNascimento, string cpf, string estadoCivil) : base(nome, dataDeNascimento, cpf){
         this.nome = nome;
+        this.dataDeNascimento = dataDeNascimento;
         this.cpf = cpf;
         this.estadoCivil = estadoCivil;
-        this.dataDeNascimento
     }
     public void imprime(){
         Console.WriteLine("Nome: {0}", this.nome);
