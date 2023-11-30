@@ -2,14 +2,7 @@ namespace _Advogados;
 using _Pessoa;
 class Advogados : Pessoa{
     public string cna;
-    public string Cna{
-        get{
-            return cna;
-        }
-        set{
-            cna = value;
-        }
-    }
+    public string Cna{get; set;}
     public Advogados(string nome, string dataDeNascimento, string cpf, string cna) : base(nome, dataDeNascimento, cpf){
         this.nome = nome;
         this.dataDeNascimento = dataDeNascimento;

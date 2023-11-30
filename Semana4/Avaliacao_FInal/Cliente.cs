@@ -7,23 +7,9 @@ class Cliente : Pessoa {
 
     public string profissao;
 
-    public string EstadoCivil{
-        get{
-            return estadoCivil;
-        }
-        set{
-            estadoCivil = value;
-        }
-    }
-
-    public string Profissao{
-        get{
-            return profissao;
-        }
-        set{
-            profissao = value;
-        }
-    }
+    public string EstadoCivil{get; set;}
+    public string Profissao{get; set;}  
+    
     public Cliente (string nome, string dataDeNascimento, string cpf, string estadoCivil, string profissao) : base(nome, dataDeNascimento, cpf){
         this.nome = nome;
         this.dataDeNascimento = dataDeNascimento;

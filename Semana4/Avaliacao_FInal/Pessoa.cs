@@ -3,37 +3,20 @@ abstract class Pessoa {
     protected string nome;
     protected string dataDeNascimento;
     protected string cpf;
-
     public Pessoa(string nome, string dataDeNascimento, string cpf){
         this.nome = nome;
         this.dataDeNascimento = dataDeNascimento;
         this.cpf = cpf;
     }
-
-    public string Nome{
-        get{
-            return nome;
+    public string Nome{get; set;}
+    public string DataDeNascimento{get; set;}
+    public string Cpf{get; set;}
+    private bool validaCPF(string cpf){
+        if(cpf.Length != 11){
+            return false;
         }
-        set{
-            nome = value;
-        }
-    }
-
-    public string DataDeNascimento{
-        get{
-            return dataDeNascimento;
-        }
-        set{
-            dataDeNascimento = value;
-        }
-    }
-
-    public string Cpf{
-        get{
-            return cpf;
-        }
-        set{
-            cpf = value;
+        else{
+            return true;
         }
     }
 }
