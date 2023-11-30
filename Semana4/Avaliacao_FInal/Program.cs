@@ -1,12 +1,25 @@
 ﻿#region 
 using System;
 
-class Advogados{
-    public string nome;
-    public string cna;
-    public string especialidade;
+abstract class Pessoa {
+    protected string nome;
+    protected string dataDeNascimento;
+    protected string cpf;
 
-    public string dataDeNascimento;
+    public Pessoa(string nome, string dataDeNascimento, string cpf){
+        this.nome = nome;
+        this.dataDeNascimento = dataDeNascimento;
+        this.cpf = cpf;
+    }
+
+    public string Nome{
+        get{
+            return nome;
+        }
+        set{
+            nome = value;
+        }
+    }
 
     public string DataDeNascimento{
         get{
@@ -16,15 +29,19 @@ class Advogados{
             dataDeNascimento = value;
         }
     }
-    
-    public string Nome{
+
+    public string Cpf{
         get{
-            return nome;
+            return cpf;
         }
         set{
-            nome = value;
+            cpf = value;
         }
     }
+}
+class Advogados : Pessoa{
+    public string cna;
+    public string especialidade;
     public string Cna{
         get{
             return cna;
@@ -41,7 +58,7 @@ class Advogados{
             especialidade = value;
         }
     }
-    public Advogados(string nome, string cna, string especialidade, string dataDeNascimento){
+    public Advogados(string nome, string cna, string especialidade, string dataDeNascimento) : base(nome, dataDeNascimento){
         this.nome = nome;
         this.cna = cna;
         this.especialidade = especialidade;
@@ -55,43 +72,27 @@ class Advogados{
     }
 }
 
-class Cliente{
-    public string nome;
-    public string cpf;
-    public string endereco;
-    public string Nome{
+class Cliente : Pessoa {
+    public string estadoCivil;
+
+    public string EstadoCivil{
         get{
-            return nome;
+            return estadoCivil;
         }
         set{
-            nome = value;
+            estadoCivil = value;
         }
     }
-    public string Cpf{
-        get{
-            return cpf;
-        }
-        set{
-            cpf = value;
-        }
-    }
-    public string Endereco{
-        get{
-            return endereco;
-        }
-        set{
-            endereco = value;
-        }
-    }
-    public Cliente(string nome, string cpf, string endereco){
+    public Cliente(string nome, string cpf, string estadoCivil, string dataDeNascimento){
         this.nome = nome;
         this.cpf = cpf;
-        this.endereco = endereco;
+        this.estadoCivil = estadoCivil;
+        this.dataDeNascimento
     }
     public void imprime(){
         Console.WriteLine("Nome: {0}", this.nome);
         Console.WriteLine("cpf: {0}", this.cpf);
-        Console.WriteLine("Endereço: {0}", this.endereco);
+        Console.WriteLine("Endereço: {0}", this.estadoCivil);
     }
 }
 
