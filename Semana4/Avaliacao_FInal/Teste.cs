@@ -14,7 +14,7 @@ foreach (Person person in people)
    Console.WriteLine($"ID: {person.Id}");
    Console.WriteLine($"Nome: {person.Name}");
    Console.WriteLine($"Documento: {person.Document}");
-   Console.WriteLine($"Data de nascimento: {person.BirthDate.ToShortDateString()}");
+   Console.WriteLine($"Data de nascimento: {person.BirthDate.ToShortDateString()}"rr);
    Console.WriteLine();
 } 
 

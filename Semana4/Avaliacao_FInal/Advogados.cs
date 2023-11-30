@@ -9,9 +9,11 @@ class Advogados : Pessoa{
         this.cpf = cpf;
         this.cna = cna;
     }
-    public void imprime(){
-        Console.WriteLine("Nome: {0}", this.nome);
-        Console.WriteLine("cna: {0}", this.cna);
-        Console.WriteLine("Data de Nascimento: {0}", this.dataDeNascimento);
+    public bool AddAdvogado(List<Advogados> advogados){
+        if (advogados.Exists(a => a.cpf == this.cpf || a.cna == this.cna))
+            return false;
+
+        advogados.Add(this);
+        return true;
     }
 }

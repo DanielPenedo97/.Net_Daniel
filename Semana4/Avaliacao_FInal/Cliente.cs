@@ -4,9 +4,7 @@ using _Pessoa;
 
 class Cliente : Pessoa {
     public string estadoCivil;
-
     public string profissao;
-
     public string EstadoCivil{get; set;}
     public string Profissao{get; set;}  
 
@@ -16,10 +14,5 @@ class Cliente : Pessoa {
         this.cpf = cpf;
         this.estadoCivil = estadoCivil;
         this.profissao = profissao; 
-    }
-    public void imprime(){
-        Console.WriteLine("Nome: {0}", this.nome);
-        Console.WriteLine("cpf: {0}", this.cpf);
-        Console.WriteLine("Endereço: {0}", this.estadoCivil);
     }
 } 
