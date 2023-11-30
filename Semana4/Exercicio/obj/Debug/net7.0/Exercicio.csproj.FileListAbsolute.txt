@@ -1,0 +1,5 @@
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana4/Exercicio/obj/Debug/net7.0/Exercicio.csproj.AssemblyReference.cache
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana4/Exercicio/obj/Debug/net7.0/Exercicio.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana4/Exercicio/obj/Debug/net7.0/Exercicio.AssemblyInfoInputs.cache
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana4/Exercicio/obj/Debug/net7.0/Exercicio.AssemblyInfo.cs
+/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana4/Exercicio/obj/Debug/net7.0/Exercicio.csproj.CoreCompileInputs.cache
