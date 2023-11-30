@@ -8,14 +8,14 @@ CultureInfo.CurrentCulture = CultureInfo.CreateSpecificCulture("pt-BR");
 
 #region Herança
 
-Cliente cliente = new Cliente("Valber", "10/10/1990", "123456789-00", "Solteiro", "Programador");
-/*Advogados advogado = new Advogados();
-advogado.Nome = "Helder";
-advogado.Cpf = "123456789-00";
-advogado.DataDeNascimento = "10/10/1990";
-advogado.Cna = "123456789-00";*/
+class Principal{
+    static void Main(){
+        Cliente cliente = new Cliente("Valber", "10/10/1990", "123456789-00", "Solteiro", "Programador");
+        Advogados advogado = new Advogados("Helder", "10/10/1990", "123456789-00", "123456789-00");
+        Console.WriteLine(cliente.Nome);
+        Console.WriteLine(advogado.Nome);
 
-Console.WriteLine(cliente.Nome);
-
-
+        
+    }
+}
 #endregion
