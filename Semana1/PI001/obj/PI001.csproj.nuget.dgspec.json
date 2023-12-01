@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana1/PI001/PI001.csproj": {}
+    "C:\\Users\\Daniels\\Downloads\\residencia_software_dotNet\\dotNet_Daniel\\Semana1\\PI001\\PI001.csproj": {}
   },
   "projects": {
-    "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana1/PI001/PI001.csproj": {
+    "C:\\Users\\Daniels\\Downloads\\residencia_software_dotNet\\dotNet_Daniel\\Semana1\\PI001\\PI001.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana1/PI001/PI001.csproj",
+        "projectUniqueName": "C:\\Users\\Daniels\\Downloads\\residencia_software_dotNet\\dotNet_Daniel\\Semana1\\PI001\\PI001.csproj",
         "projectName": "PI001",
-        "projectPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana1/PI001/PI001.csproj",
-        "packagesPath": "/home/daniel-penedo-santos/.nuget/packages/",
-        "outputPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana1/PI001/obj/",
+        "projectPath": "C:\\Users\\Daniels\\Downloads\\residencia_software_dotNet\\dotNet_Daniel\\Semana1\\PI001\\PI001.csproj",
+        "packagesPath": "C:\\Users\\Daniels\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniels\\Downloads\\residencia_software_dotNet\\dotNet_Daniel\\Semana1\\PI001\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/daniel-penedo-santos/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Daniels\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
