@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Daniels\\.nuget\\packages\\": {}
+    "/home/daniel-penedo-santos/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniels\\Downloads\\residencia_software_dotNet\\dotNet_Daniel\\Semana3\\PI003\\PI003.csproj",
+      "projectUniqueName": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/PI003/PI003.csproj",
       "projectName": "PI003",
-      "projectPath": "C:\\Users\\Daniels\\Downloads\\residencia_software_dotNet\\dotNet_Daniel\\Semana3\\PI003\\PI003.csproj",
-      "packagesPath": "C:\\Users\\Daniels\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniels\\Downloads\\residencia_software_dotNet\\dotNet_Daniel\\Semana3\\PI003\\obj\\",
+      "projectPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/PI003/PI003.csproj",
+      "packagesPath": "/home/daniel-penedo-santos/.nuget/packages/",
+      "outputPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/PI003/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Daniels\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/daniel-penedo-santos/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
       }
     }
   }
