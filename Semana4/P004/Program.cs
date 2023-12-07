@@ -8,7 +8,7 @@ using _CasoJuridico;
 using _Escritorio;
 using _Documento;
 
-    class Program{
+class Program{
     static void Main()
     {
         Escritorio escritorio = new Escritorio(); // Inicializa o escritório com instâncias de advogados, clientes, casos, etc.

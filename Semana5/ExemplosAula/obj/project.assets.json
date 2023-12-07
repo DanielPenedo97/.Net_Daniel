@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/daniel-penedo-santos/Documentos/tic18_dotnet/Semana5/ExemplosAula/ExemplosAula.csproj",
+      "projectUniqueName": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana5/ExemplosAula/ExemplosAula.csproj",
       "projectName": "ExemplosAula",
-      "projectPath": "/home/daniel-penedo-santos/Documentos/tic18_dotnet/Semana5/ExemplosAula/ExemplosAula.csproj",
+      "projectPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana5/ExemplosAula/ExemplosAula.csproj",
       "packagesPath": "/home/daniel-penedo-santos/.nuget/packages/",
-      "outputPath": "/home/daniel-penedo-santos/Documentos/tic18_dotnet/Semana5/ExemplosAula/obj/",
+      "outputPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana5/ExemplosAula/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/daniel-penedo-santos/.nuget/NuGet/NuGet.Config"

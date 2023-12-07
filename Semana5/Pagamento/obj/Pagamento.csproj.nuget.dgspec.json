@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/daniel-penedo-santos/Documentos/tic18_dotnet/Semana5/Pagamento/Pagamento.csproj": {}
+    "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana5/Pagamento/Pagamento.csproj": {}
   },
   "projects": {
-    "/home/daniel-penedo-santos/Documentos/tic18_dotnet/Semana5/Pagamento/Pagamento.csproj": {
+    "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana5/Pagamento/Pagamento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/daniel-penedo-santos/Documentos/tic18_dotnet/Semana5/Pagamento/Pagamento.csproj",
+        "projectUniqueName": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana5/Pagamento/Pagamento.csproj",
         "projectName": "Pagamento",
-        "projectPath": "/home/daniel-penedo-santos/Documentos/tic18_dotnet/Semana5/Pagamento/Pagamento.csproj",
+        "projectPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana5/Pagamento/Pagamento.csproj",
         "packagesPath": "/home/daniel-penedo-santos/.nuget/packages/",
-        "outputPath": "/home/daniel-penedo-santos/Documentos/tic18_dotnet/Semana5/Pagamento/obj/",
+        "outputPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana5/Pagamento/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/daniel-penedo-santos/.nuget/NuGet/NuGet.Config"

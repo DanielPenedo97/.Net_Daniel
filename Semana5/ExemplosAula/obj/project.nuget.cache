@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vK64Ghhn3HiyNvQuOXMXhl82oe9P+7Kd/oiVs0hN9MA/mhshp2PYBlqBrktBPQrt7tgBIJhKmGoWo+E4NbOgvw==",
+  "dgSpecHash": "lAEvd8ik/SGhB59xPMw6XsG6JqfGYirYKX+Wc8bww5yLBx5KlpTQw4Sy//1JEUeWowvVVWKL+qdyyc/DX8mxXQ==",
   "success": true,
-  "projectFilePath": "/home/daniel-penedo-santos/Documentos/tic18_dotnet/Semana5/ExemplosAula/ExemplosAula.csproj",
+  "projectFilePath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana5/ExemplosAula/ExemplosAula.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
