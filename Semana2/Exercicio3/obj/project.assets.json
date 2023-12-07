@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Exercicio3/Exercicio3.csproj",
+      "projectUniqueName": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana2/Exercicio3/Exercicio3.csproj",
       "projectName": "Exercicio3",
-      "projectPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Exercicio3/Exercicio3.csproj",
+      "projectPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana2/Exercicio3/Exercicio3.csproj",
       "packagesPath": "/home/daniel-penedo-santos/.nuget/packages/",
-      "outputPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Exercicio3/obj/",
+      "outputPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana2/Exercicio3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/daniel-penedo-santos/.nuget/NuGet/NuGet.Config"

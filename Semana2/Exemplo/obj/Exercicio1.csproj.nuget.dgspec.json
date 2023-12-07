@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Exemplo/Exercicio1.csproj": {}
+    "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana2/Exemplo/Exercicio1.csproj": {}
   },
   "projects": {
-    "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Exemplo/Exercicio1.csproj": {
+    "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana2/Exemplo/Exercicio1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Exemplo/Exercicio1.csproj",
+        "projectUniqueName": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana2/Exemplo/Exercicio1.csproj",
         "projectName": "Exercicio1",
-        "projectPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Exemplo/Exercicio1.csproj",
+        "projectPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana2/Exemplo/Exercicio1.csproj",
         "packagesPath": "/home/daniel-penedo-santos/.nuget/packages/",
-        "outputPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana2/Exemplo/obj/",
+        "outputPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana2/Exemplo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/daniel-penedo-santos/.nuget/NuGet/NuGet.Config"

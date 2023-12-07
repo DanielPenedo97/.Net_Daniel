@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana3/Exercicios/Exercicios.csproj": {}
+    "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicios/Exercicios.csproj": {}
   },
   "projects": {
-    "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana3/Exercicios/Exercicios.csproj": {
+    "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicios/Exercicios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana3/Exercicios/Exercicios.csproj",
+        "projectUniqueName": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicios/Exercicios.csproj",
         "projectName": "Exercicios",
-        "projectPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana3/Exercicios/Exercicios.csproj",
+        "projectPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicios/Exercicios.csproj",
         "packagesPath": "/home/daniel-penedo-santos/.nuget/packages/",
-        "outputPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/dotNet_Daniel/Semana3/Exercicios/obj/",
+        "outputPath": "/home/daniel-penedo-santos/Documentos/dotNet_Daniel/Semana3/Exercicios/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/daniel-penedo-santos/.nuget/NuGet/NuGet.Config"
