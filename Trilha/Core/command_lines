@@ -1,0 +1,14 @@
+dotnet new web
+	   api
+	   classlib
+	   mvc
+	   
+dotnet sln add ...\... .csproj
+
+cd dotNet_Daniel/Trilha/
+dotnet new classlib -o Core
+dotnet sln add Trilha/Core/Core.csproj
+
+add project reference (right button)
+
+roadmap.sh
