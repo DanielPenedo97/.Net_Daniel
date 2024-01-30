@@ -11,4 +11,6 @@ dotnet sln add Trilha/Core/Core.csproj
 
 add project reference (right button)
 
+dotnet-ef migration add secondMigration -s ../<caminho_para_projeto_com_context/projeto.csproj
+
 roadmap.sh
