@@ -1,0 +1,11 @@
+1. Crie um middleware que adicione um cabeçalho personalizado a todas as respostas
+do servidor, trazendo a hora e o ip de cada solicitação feita para o servidor.
+
+2. Implementar um middleware que registra o tempo de duração de cada requisição em
+milissegundos.
+
+3. Modifique o anterior para informar o tempo em microsegundos.
+
+4. Implementee um middleware customizado que intercepte todas as execuções e gere
+um Json e envie para um endpoint específico.
+
