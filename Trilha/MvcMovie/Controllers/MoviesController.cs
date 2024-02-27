@@ -10,24 +10,23 @@ using MvcMovie.Models;
 
 namespace MvcMovie.Controllers
 {
-    public class MoviesController : Controller
+    public class MovieController : Controller
     {
         private readonly MvcMovieContext _context;
 
-        public MoviesController(MvcMovieContext context)
+        public MovieController(MvcMovieContext context)
         {
             _context = context;
         }
 
-        // GET: Movies
+        // GET: Movie
         public async Task<IActionResult> Index()
         {
-              return _context.Movie != null ? 
-                          View(await _context.Movie.ToListAsync()) :
-                          Problem("Entity set 'MvcMovieContext.Movie'  is null.");
+            var mvcMovieContext = _context.Movie.Include(m => m.Studio );
+            return View(await mvcMovieContext.ToListAsync());
         }
 
-        // GET: Movies/Details/5
+        // GET: Movie/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Movie == null)
@@ -36,6 +35,7 @@ namespace MvcMovie.Controllers
             }
 
             var movie = await _context.Movie
+                .Include(m => m.Studio)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (movie == null)
             {
@@ -45,29 +45,33 @@ namespace MvcMovie.Controllers
             return View(movie);
         }
 
-        // GET: Movies/Create
+        // GET: Movie/Create
         public IActionResult Create()
         {
+            ViewData["StudioId"] = new SelectList(_context.Studio, "Id", "Name");
+            ViewData["ArtistId"] = new SelectList(_context.Artist, "Id", "Name");
             return View();
         }
 
-        // POST: Movies/Create
+        // POST: Movie/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price")] Movie movie)
+        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price,StudioId")] Movie movie, string[] Artists)
         {
             if (ModelState.IsValid)
             {
+                var _artists = await _context.Artist.Where(a => Artists.Contains(a.Id.ToString())).ToListAsync();
                 _context.Add(movie);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["StudioId"] = new SelectList(_context.Studio, "Id", "Name", movie.StudioId);
             return View(movie);
         }
 
-        // GET: Movies/Edit/5
+        // GET: Movie/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Movie == null)
@@ -80,15 +84,16 @@ namespace MvcMovie.Controllers
             {
                 return NotFound();
             }
+            ViewData["StudioId"] = new SelectList(_context.Studio, "Id", "Name", movie.StudioId);
             return View(movie);
         }
 
-        // POST: Movies/Edit/5
+        // POST: Movie/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Price")] Movie movie)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Price,StudioId")] Movie movie)
         {
             if (id != movie.Id)
             {
@@ -115,10 +120,11 @@ namespace MvcMovie.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["StudioId"] = new SelectList(_context.Studio, "Id", "Name", movie.StudioId);
             return View(movie);
         }
 
-        // GET: Movies/Delete/5
+        // GET: Movie/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Movie == null)
@@ -127,6 +133,7 @@ namespace MvcMovie.Controllers
             }
 
             var movie = await _context.Movie
+                .Include(m => m.Studio)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (movie == null)
             {
@@ -136,7 +143,7 @@ namespace MvcMovie.Controllers
             return View(movie);
         }
 
-        // POST: Movies/Delete/5
+        // POST: Movie/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
